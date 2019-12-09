@@ -1,0 +1,29 @@
+﻿Build started 12/9/2019 10:56:24 AM.
+     1>Project "D:\cours bootcamp2019\statica\statica\statica.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\statica.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt statictic.cpp
+         statictic.cpp
+     1>d:\cours bootcamp2019\statica\statica\statictic.cpp(24): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\cours bootcamp2019\statica\statica\statictic.cpp(33): warning C4018: '<' : signed/unsigned mismatch
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\statica.exe.embed.manifest.res" Debug\statica_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\cours bootcamp2019\statica\Debug\statica.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\statica.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\cours bootcamp2019\statica\Debug\statica.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\cours bootcamp2019\statica\Debug\statica.lib" /MACHINE:X86 Debug\statica.exe.embed.manifest.res
+         Debug\statictic.obj
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\statica.exe.embed.manifest" /manifest Debug\statica.exe.intermediate.manifest
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\statica.exe.embed.manifest.res" Debug\statica_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\cours bootcamp2019\statica\Debug\statica.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\statica.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\cours bootcamp2019\statica\Debug\statica.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\cours bootcamp2019\statica\Debug\statica.lib" /MACHINE:X86 Debug\statica.exe.embed.manifest.res
+         Debug\statictic.obj
+         statica.vcxproj -> D:\cours bootcamp2019\statica\Debug\statica.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\statica.unsuccessfulbuild".
+         Touching "Debug\statica.lastbuildstate".
+     1>Done Building Project "D:\cours bootcamp2019\statica\statica\statica.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.13
